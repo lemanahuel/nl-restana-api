@@ -1,0 +1,47 @@
+{
+  "name": "nl-restana-api",
+  "version": "1.0.0",
+  "description": "Restful API con Restify",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "engines": {
+    "node": "11.x.x",
+    "npm": "6.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemanahuel/nl-restana-api.git"
+  },
+  "homepage": "https://nl-restana-api.herokuapp.com",
+  "author": {
+    "name": "Nahuel Lema",
+    "email": "lema.nahuel@gmail.com",
+    "url": "https://www.linkedin.com/in/nahuellema/"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/lemanahuel/nl-restana-api/issues"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.13.2",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "forever": "^0.15.3",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "mustache": "^3.0.1",
+    "node-static": "^0.7.11",
+    "raw-body": "^2.3.3",
+    "restana": "^2.10.0",
+    "serve-static": "^1.13.2",
+    "turbo-http": "^0.3.0"
+  }
+}
