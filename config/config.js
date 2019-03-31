@@ -10,6 +10,8 @@ module.exports = {
     'localhost:5001',
     'https://nl-restana-api.herokuapp.com',
     'https://nl-static-www.herokuapp.com',
+    'http://nl-restana-api.herokuapp.com',
+    'http://nl-static-www.herokuapp.com',
     'nl-restana-api.herokuapp.com',
     'nl-static-www.herokuapp.com']
 };

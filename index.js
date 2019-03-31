@@ -40,7 +40,7 @@ service.use((req, res, next) => {
       if (e.data && e.data.errClass) {
         console.log(e.data.errClass + ': ' + e.data.message);
       } else {
-        console.log('err-res', e);
+        console.log('err-res', e.code);
       }
     }
   });
