@@ -26,6 +26,13 @@ service.use(bodyParser.json());
 service.use(cors());
 
 service.use((req, res, next) => {
+  if (!req.query) {
+    req.query = querystring.parse(url.parse(req.url).query);
+  }
+  next();
+});
+
+service.use((req, res, next) => {
   res.on('response', e => {
     if (e.code >= 400) {
       if (e.data && e.data.errClass) {
