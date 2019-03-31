@@ -8,8 +8,8 @@ module.exports = {
     'localhost:5000',
     'http://localhost:5001',
     'localhost:5001',
-    'https://nl-restify-api.herokuapp.com',
+    'https://nl-restana-api.herokuapp.com',
     'https://nl-static-www.herokuapp.com',
-    'nl-restify-api.herokuapp.com',
+    'nl-restana-api.herokuapp.com',
     'nl-static-www.herokuapp.com']
 };
