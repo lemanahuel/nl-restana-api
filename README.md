@@ -5,7 +5,7 @@ Desarrollaremos un CRUD completo con una API RestFul con NODE + RESTANA para per
 
 ### Curso online en Udemy
 
-👉 https://www.udemy.com/programa-hoy-en-mongodb-con-mongoose/
+👉 https://www.udemy.com/restana-mongodb-node-restful-api-heroku/
 
 ### Más cursos:
 
